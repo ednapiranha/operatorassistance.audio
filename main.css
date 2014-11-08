@@ -4,6 +4,7 @@ html, body, ol {
 
 body {
   background: url(phone.png) no-repeat;
+  background-position: 10px 10px;
   background-color: #111;
   font-family: Titillium;
 }
@@ -16,23 +17,13 @@ body {
 
 ol {
   list-style-type: none;
+  margin-left: 10px;
 }
 
 li {
-  margin-bottom: 3px;
-  border-bottom: 10px solid #000;
-}
-
-li:hover {
-  border-bottom: 10px solid #fff;
-}
-
-li.t20141107:hover {
-  background-color: #46e08f;
-}
-
-li.t201411081:hover {
-  background-color: #46e0c5;
+  margin-bottom: 20px;
+  float: left;
+  clear: both;
 }
 
 h1 {
@@ -46,6 +37,7 @@ h1 {
 
 h2 {
   display: inline-block;
+  float: left;
   font-size: 1rem;
   line-height: 1.2rem;
   font-weight: 200;
@@ -53,8 +45,9 @@ h2 {
   margin: 2px 0;
   padding: 0 2px;
   background-color: rgba(0, 0, 0, 0.6);
+  width: 135px;
 }
 
 audio {
-  display: block;
+  float: left;
 }
