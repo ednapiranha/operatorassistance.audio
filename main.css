@@ -1,0 +1,60 @@
+html, body, ol {
+  padding: 0;
+}
+
+body {
+  background: url(phone.png) no-repeat;
+  background-color: #111;
+  font-family: Titillium;
+}
+
+#wrapper {
+  padding-top: 260px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 3px;
+  border-bottom: 10px solid #000;
+}
+
+li:hover {
+  border-bottom: 10px solid #fff;
+}
+
+li.t20141107:hover {
+  background-color: #46e08f;
+}
+
+li.t201411081:hover {
+  background-color: #46e0c5;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #0fcfad;
+  letter-spacing: 3px;
+  padding: 0 10px;
+  word-spacing: 8px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 200;
+  color: #eee;
+  margin: 2px 0;
+  padding: 0 2px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+audio {
+  display: block;
+}
