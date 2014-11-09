@@ -1,90 +1,44 @@
 html, body, ol {
   padding: 0;
+  margin: 0;
 }
 
 body {
-  background: url(phone.gif) repeat-x;
-  background-position: 0 10px;
-  background-color: #000;
+  background-color: #111;
   font-family: Titillium;
 }
 
 #wrapper {
-  padding-top: 90px;
-  padding-bottom: 20px;
   position: relative;
 }
 
 ol {
   list-style-type: none;
-  margin-left: 10px;
-  margin-top: 140px;
 }
 
 li {
   background-color: #000;
-  margin-bottom: 20px;
+  margin: 5px;
   float: left;
-  clear: both;
 }
 
 h1 {
-  font-size: 1.8rem;
-  background-color: rgba(1, 1, 1, 0.7);
+  margin: 0 0 10px 0;
+  background-color: #eee;
+  font-size: 1.7rem;
   font-weight: 200;
-  display: inline-block;
-  color: #fff;
+  color: #111;
   letter-spacing: 3px;
-  padding: 0 10px;
+  padding: 20px;
   word-spacing: 8px;
 }
 
-h2 {
-  display: inline-block;
-  float: left;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  font-weight: 200;
-  color: #aaa;
-  margin: 2px 0;
-  padding: 0 2px;
-  width: 125px;
-}
-
-audio {
-  background-color: #000;
-  float: left;
-}
-
-@media only screen and (max-width: 460px) {
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  audio {
-    width: 165px;
-  }
+iframe {
+  width: 310px;
 }
 
 @media only screen and (max-width: 335px) {
-  body {
-    background-size: 270px;
-    background-repeat: no-repeat;
-  }
-
-  ol {
-    margin-top: 130px;
-  }
-
   h1 {
     font-size: 1.4rem;
-  }
-
-  audio {
-    width: 155px;
-  }
-
-  h2 {
-    font-size: 1rem;
   }
 }
