@@ -21,9 +21,13 @@ ol {
 }
 
 li {
+  background-color: #000;
   margin-bottom: 20px;
   float: left;
   clear: both;
+  padding-left: 10px;
+  border-left: 10px solid #0fcfad;
+  border-bottom: 1px solid #0fcfad;
 }
 
 h1 {
@@ -38,16 +42,16 @@ h1 {
 h2 {
   display: inline-block;
   float: left;
-  font-size: 1rem;
-  line-height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   font-weight: 200;
-  color: #eee;
+  color: #aaa;
   margin: 2px 0;
   padding: 0 2px;
-  background-color: rgba(0, 0, 0, 0.6);
   width: 135px;
 }
 
 audio {
+  background-color: #000;
   float: left;
 }
