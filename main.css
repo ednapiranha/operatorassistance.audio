@@ -16,10 +16,43 @@ ol {
   list-style-type: none;
 }
 
+p {
+  font-style: italic;
+  color: #ccc;
+  font-weight: 200;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
 li {
-  background-color: #000;
-  margin: 5px;
   float: left;
+  clear: both;
+  width: 50%;
+  min-width: 280px;
+  padding: 1px 20px;
+  color: #666;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+li a {
+  border-left: 8px solid #eee;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  color: #ccc;
+  padding: 10px 5px 10px 15px;
+  font-weight: 200;
+  margin-right: 5px;
+}
+
+a:hover {
+  border-left: 8px solid #0fcfad;
+  background-color: #eee;
+  color: #111;
 }
 
 h1 {
@@ -29,12 +62,12 @@ h1 {
   font-weight: 200;
   color: #111;
   letter-spacing: 3px;
-  padding: 20px;
+  padding: 20px 20px 20px 100px;
   word-spacing: 8px;
-}
-
-iframe {
-  width: 310px;
+  background-image: url(phone.png);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  border-bottom: 2px solid #2de3ba;
 }
 
 @media only screen and (max-width: 335px) {
